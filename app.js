@@ -19,7 +19,7 @@ fs.watch( __watch, function( event, filename ) {
 			}
 		}
 	}
-} )
+} );
 
 function processPrint( filename ) {
 	var data = require( __watch + '/' + filename );
